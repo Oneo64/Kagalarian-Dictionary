@@ -53,11 +53,11 @@
 	document.getElementById("pos").value = pos != null ? pos : "all";
 	document.getElementById("declensions").checked = d != null;
 
-	document.getElementById("title").innerHTML = "Orðpængin um Oddarsku - Orðsilfing";
-	document.getElementById("search").innerHTML = "Silfingur um '" + v + "'";
+	document.getElementById("title").innerHTML = "Kagalarian Dictionary - Search results";
+	document.getElementById("search").innerHTML = "Searched results of '" + v + "'";
 
 	if (v == "") {
-		document.getElementById("results").innerHTML = "<div>Silfingit getir eigi at vera eigeinn.</div>";
+		document.getElementById("results").innerHTML = "<div>The search cannot be empty!</div>";
 	} else {
 		var slotsLeft = 100;
 
@@ -116,12 +116,12 @@
 					if (slotsLeft <= 0) break;
 				}
 			} else {
-				alert("VÁGING: Orðit " + word + " ar eigi í hletan!");
+				alert("Warning: The word " + word + " is not in the entry list!");
 			}
 		}
 
 		if (document.getElementById("results").innerHTML == "") {
-			document.getElementById("results").innerHTML = "<div>Skít!!! Þær býr eigi orðit '" + v + ".' :(</div>";
+			document.getElementById("results").innerHTML = "<div>Shit!!! The word '" + v + "' doesn't exist. :(</div>";
 		}
 	}
 </script>
