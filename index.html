@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="author" content="Oneo64">
-	<meta name="description" content="Official dictionary for Kagalarian, a conlang created by Oneo64.">
-	<meta name="keywords" content="Kagalarian, conlang, constructed language, Kagalar, Empire of Kagalar, Kagalarian Empire, Oneo64, dictionary">
+	<meta name="description" content="Official dictionary for Kagalarian, a conlang created by Oneo64 for the science fictional world Empires of the Cosmos.">
+	<meta name="keywords" content="Kagalarian, conlang, constructed language, Kagalar, Empire of Kagalar, Kagalarian Empire, Oneo64, dictionary, Empires of the Cosmos">
 
 	<title>Kagalarian Dictionary</title>
 	<link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
 	<div id="letters" class="letterlist h2font"></div>
 	<hr>
 	<p>This is the official Kagalarian dictionary made by the creator! Kagalarian was the first conlang ever made by Neo. In fact, it started out as a relex. But after being called out that it wasn't a real conlang, Kagalarian has been remade.</p>
-	<p>Kagalarian was made for an unnamed world (called Fantasy in Kagalarian Space for now), where residents and citizens of the Empire of Kagalar speak it.</p>
+	<p>Kagalarian was made for the worldbuilding project Empires of the Cosmos, where residents and citizens of the Kagalarian Empire speak it.</p>
 	<p>Source: <a href="https://docs.google.com/spreadsheets/d/1vYJxVshYhUB252pUexukKD-KcFi6mqFsbbw3BfywOC4/">Google Sheets</a></p>
 	<p id="wordcount"></p>
 	<hr>
@@ -48,6 +48,19 @@
 	}
 
 	document.getElementById("wordcount").innerHTML = "Right now, Kagalarian has " + entry_words.length + " words (" + roots + " roots), and is currently " + years2 + " years and " + days2 + " days old!";
+</script>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "CreativeWork",
+	"name": "Kagalarian",
+	"creator": {
+		"@type": "Person",
+		"name": "Oneo64"
+	},
+	"about": "Kagalarian is a constructed language created for the worldbuilding project Empires of the Cosmos.",
+	"inLanguage": "English"
+}
 </script>
 </body>
 </html>
