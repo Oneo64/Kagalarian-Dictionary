@@ -27,6 +27,8 @@ const cyrillic = {
 	"y": "я",
 	"z": "з",
 	"ū": "у",
+
+	"-": "",
 };
 
 function latin_to_cyrillic(text) {
