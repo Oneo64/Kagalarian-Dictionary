@@ -22,6 +22,7 @@
 <script src="js/letters.js"></script>
 <script src="js/lexicon.js"></script>
 <script src="js/declensions.js"></script>
+<script src="js/cyrillic.js"></script>
 <script>
 	var query = window.location.search;
 	var params = new URLSearchParams(query);
@@ -34,7 +35,7 @@
 		if (v.endsWith(")")) v2 = v.substring(0, v.length - 4);
 
 		document.getElementById("title").innerHTML = "Kagalarian Dictionary - " + v.charAt(0).toUpperCase() + v.substring(1);
-		document.getElementById("word").innerHTML = v;
+		document.getElementById("word").innerHTML = v + " (" + latin_to_cyrillic(v) + ")";
 		document.getElementById("type").innerHTML = word_type_short_form[entry[0]];
 		document.getElementById("definition").innerHTML = entry[1];
 
