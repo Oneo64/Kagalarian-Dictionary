@@ -73,7 +73,7 @@
 					if ((pos != "prefix" || !word2.startsWith(v)) && (pos != "suffix" || !word2.endsWith(v))) continue;
 				}
 
-				var def = entries[word][1];
+				var def = entries[word][1].toLowerCase();
 				var added = false;
 
 				if (def.includes("|")) def = def.substring(0, def.indexOf("|")).trim();
@@ -81,7 +81,7 @@
 				if (def.includes(v)) {
 					document.getElementById("results").innerHTML += "<div><a class='listitem' href='word.html?v=" + word + "'>" + entry_words[i] + "</a><div class='nowrap'>&nbsp&nbsp" + def + "</div></div>";
 					added = true;
-				} else if (word.includes(v)) {
+				} else if (word.toLowerCase().includes(v)) {
 					document.getElementById("results").innerHTML += "<div><a class='listitem' href='word.html?v=" + word + "'>" + word + "</a><div class='nowrap'>&nbsp&nbsp(fyndið í orðinni)</div></div>";
 					added = true;
 				}
