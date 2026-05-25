@@ -2368,7 +2368,7 @@ const entries = {
 	"snova": ["adverb", "again"],
 	"sokovat": ["verb", "to sell"],
 	"soldat": ["verb", "to tell someone"],
-	"soler": ["noun", "travel, trek, journey, pilgrimage, voyage"],
+	"soler": ["noun", "travel, trek, journey, voyage; pilgrimage"],
 	"soler-seyrin": ["noun", "traveler, traveling ship (not a battleship)"],
 	"solerat vlebta ves neveskus": ["verb", "(slang) to abandon previous relationships and go to outer space as an explorer"],
 	"solerat": ["verb", "to travel, to go (with \"ta\" + object)"],
