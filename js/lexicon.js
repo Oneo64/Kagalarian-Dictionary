@@ -1382,7 +1382,7 @@ const entries = {
 	"bosenk": ["noun", "ladder"],
 	"boshat": ["verb", "to sneak, to creep, to lurk"],
 	"bosko": ["noun", "boy"],
-	"boslat": ["verb", "to let, to allow, to permit"],
+	"boslat": ["verb", "to let, to allow, to permit; to make someone do something (with object (who) + verb infinitive (to do what))"],
 	"boslon": ["verb", "permit, license"],
 	"bramat": ["verb", "to open"],
 	"branzak": ["noun", "billion"],
