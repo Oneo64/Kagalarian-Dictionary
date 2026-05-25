@@ -1515,7 +1515,7 @@ const entries = {
 	"eron": ["noun", "pipe"],
 	"eskat": ["noun", "to carve, to etch"],
 	"etsa": ["adjective", "other (indeclinable)"],
-	"ev (1)": ["preposition", "caused by, because of, from"],
+	"ev (1)": ["preposition", "caused by, because of, from; using a tool, with"],
 	"ev (2)": ["article", "article to turn transitive verbs into intransitive verbs"],
 	"ev feydat": ["verb", "to be born"],
 	"evnen": ["interjection", "a greeting; hello, hi"],
