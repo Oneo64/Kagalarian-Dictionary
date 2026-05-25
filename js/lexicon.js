@@ -2266,7 +2266,7 @@ const entries = {
 	"roskat": ["verb", "to find, to search"],
 	"roten": ["noun", "rule, law"],
 	"rov-losik": ["noun", "checkpoint"],
-	"rovat": ["verb", "to check, to inspect; to check on, to make sure"],
+	"rovat": ["verb", "to inspect, to look closely; to check on, to ensure"],
 	"rovelov": ["noun", "inspection"],
 	"ruskūdat": ["verb", "to rape, to sexually assault"],
 	"ruskūdon": ["noun", "rape, sexual assault"],
