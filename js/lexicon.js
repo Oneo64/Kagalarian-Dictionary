@@ -2340,7 +2340,7 @@ const entries = {
 	"svinyak": ["noun", "pervert, creep"],
 	"svoloch": ["noun", "bastard (insult)"],
 	"svūkat": ["verb", "to serve"],
-	"svūko": ["noun", "servant"],
+	"svūko": ["noun", "servant, server, maid, waiter"],
 	"svūsat": ["verb", "to write"],
 	"syar": ["adverb-preposition", "there"],
 	"syer": ["adverb-preposition", "here"],
