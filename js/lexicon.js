@@ -2068,7 +2068,7 @@ const entries = {
 	"morston": ["noun", "planet"],
 	"mraka": ["adjective", "dark, murk, gloom"],
 	"mrakelov": ["noun", "darkness, murkiness, blackness"],
-	"mralat": ["verb", "to give, to grant"],
+	"mralat": ["verb", "to give, to grant (with object (who) or with object (what) + \"ta\" + object (who))"],
 	"mrel": ["noun", "energy, power"],
 	"mrel-antul": ["noun", "power armor"],
 	"mrelniy ravak": ["noun", "plasma rifle"],
