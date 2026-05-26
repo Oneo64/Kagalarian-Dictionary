@@ -2442,7 +2442,7 @@ const entries = {
 	"smegat": ["verb", "to bet, to gamble"],
 	"smidat": ["verb", "to take off, to doff"],
 	"smoterat": ["verb", "to stare, to gaze at, to look intensely"],
-	"snemb-yeldo": ["noun", "sheperd"],
+	"snemb-yeldo": ["noun", "shepherd"],
 	"snembya": ["noun", "sheep"],
 	"sokovat": ["verb", "to sell"],
 	"soldat": ["verb", "to tell someone"],
