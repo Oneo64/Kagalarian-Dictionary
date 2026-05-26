@@ -35,7 +35,7 @@
 		if (v.endsWith(")")) v2 = v.substring(0, v.length - 4);
 
 		document.getElementById("title").innerHTML = "Kagalarian Dictionary - " + v.charAt(0).toUpperCase() + v.substring(1);
-		document.getElementById("word").innerHTML = v + " (" + latin_to_cyrillic(v) + ")";
+		document.getElementById("word").innerHTML = v + " (" + latin_to_cyrillic(v2) + ")";
 		document.getElementById("type").innerHTML = word_type_short_form[entry[0]];
 		document.getElementById("definitions").innerHTML = "";
 
