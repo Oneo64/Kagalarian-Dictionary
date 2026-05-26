@@ -2757,7 +2757,7 @@ const entries = {
 	"zūlat": ["verb", "to lower, to decrease"],
 	"zūlelov": ["noun", "decrement"],
 	"zūsk": ["noun", "group of people, party, company, throng, crowd"],
-	"ūkdunat": ["verb", "to transform, to turn into, to change (with \"ta\" + object)"],
+	"ūkdunat": ["verb", "to transform, to turn into, to change, to become (with \"ta\" + object)"],
 	"ūkdunelov": ["noun", "transformation"],
 	"ūkelin": ["noun", "violin"],
 	"ūnū-": ["prefix", "negator prefix"],
