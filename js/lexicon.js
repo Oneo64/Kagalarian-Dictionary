@@ -1802,7 +1802,7 @@ const entries = {
 	"holvat": ["verb", "to shake, to shudder, to shiver"],
 	"horold": ["noun", "mage, wizard, sorcerer, magic user"],
 	"horosha": ["adjective", "safe, secure, okay"],
-	"horoshat": ["verb", "to make safe; to relieve, to sooth"],
+	"horoshat": ["verb", "to make safe, to relieve, to sooth"],
 	"horoshe dom": ["noun", "safe house, hidden outpost"],
 	"hos": ["noun", "grip, handle"],
 	"hosat": ["verb", "to hold, to have"],
