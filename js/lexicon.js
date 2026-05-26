@@ -2117,7 +2117,7 @@ const entries = {
 	"mlonor ordelg": ["noun", "meteoroid; a small piece of space rock from the original asteroid/meteor; space debris"],
 	"mlonor": ["noun", "meteor; the visible streak when an asteroid/meteoroid falls"],
 	"mlonor-grenk": ["noun", "meteorite; space rock that landed"],
-	"mlordat": ["verb", "to destroy, to crumble"],
+	"mlordat": ["verb", "to destroy, to crumble, to lay in ruins"],
 	"mol": ["preposition", "from"],
 	"moldat": ["verb", "to form, to mold"],
 	"moldon": ["noun", "form, shape"],
