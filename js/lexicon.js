@@ -1453,7 +1453,7 @@ const entries = {
 	"blovon": ["noun", "heat"],
 	"bloza": ["noun", "shirt"],
 	"blūshor": ["noun", "robe, robes"],
-	"bolon": ["noun", "pain"],
+	"bolon": ["noun", "pain (less common)"],
 	"boreyv": ["noun", "friend"],
 	"borogniy": ["adjective", "bitter"],
 	"borot": ["noun", "beard"],
