@@ -13,6 +13,7 @@
 	<div id="letters" class="letterlist h2font"></div>
 	<hr>
 	<h3 id="word">Word not found</h3>
+	<h4 id="ipa" class="ipa">n/a</h4>
 	<p id="type">n/a</p>
 	<ol id="definitions" class="pfont"></ol>
 	<hr>
@@ -34,8 +35,12 @@
 
 		if (v.endsWith(")")) v2 = v.substring(0, v.length - 4);
 
+		var cyrillic_ver = latin_to_cyrillic(v2);
+		var ipa = cyrillic_to_ipa(cyrillic_ver);
+
 		document.getElementById("title").innerHTML = "Kagalarian Dictionary - " + v.charAt(0).toUpperCase() + v.substring(1);
-		document.getElementById("word").innerHTML = v + " (" + latin_to_cyrillic(v2) + ")";
+		document.getElementById("word").innerHTML = v + " (" + cyrillic_ver + ")";
+		document.getElementById("ipa").innerHTML = "/" + ipa + "/";
 		document.getElementById("type").innerHTML = word_type_short_form[entry[0]];
 		document.getElementById("definitions").innerHTML = "";
 
