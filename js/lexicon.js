@@ -1689,7 +1689,7 @@ const entries = {
 	"elmezh": ["noun", "ice"],
 	"emertat": ["verb", "to like"],
 	"enkankat": ["verb", "to reset, to refactor"],
-	"enkar": ["noun", "disease, sickness"],
+	"enkar": ["noun", "disease, sickness, illness"],
 	"enkar-stolm": ["noun", "hospital"],
 	"enlūtar": ["noun", "information"],
 	"enlūtarat": ["verb", "to inform"],
