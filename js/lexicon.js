@@ -1843,7 +1843,7 @@ const entries = {
 	"grold": ["noun", "mace, club"],
 	"gromat": ["verb", "to louden, to make loud"],
 	"gromniy": ["adjective", "loud, rowdy"],
-	"groyyat": ["verb", "to chew"],
+	"groyyat": ["verb", "to chew, to gnaw"],
 	"gunon": ["noun", "linen"],
 	"gurk": ["noun", "natural oil"],
 	"gyelat": ["verb", "to steal"],
