@@ -1683,7 +1683,7 @@ const entries = {
 	"durst": ["noun", "war"],
 	"durst-linya": ["noun", "front lines, combat zone"],
 	"durst-seyrin": ["noun", "warship, any ship used for war"],
-	"dursto": ["noun", "warrior, fighter; soldier, belligerent, combatant (archaic)"],
+	"dursto": ["noun", "warrior, fighter, barbarian; soldier, belligerent, combatant (archaic)"],
 	"dyatsat": ["verb", "to hope"],
 	"dyatson": ["verb", "hope, wish, want"],
 	"dyonomat": ["verb", "to disintegrate, to turn into dust"],
