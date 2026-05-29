@@ -10,6 +10,8 @@ const cyrillic = {
 	"oy": "ой",
 	"yu": "яу",
 
+	"eya": "еяа",
+
 	"a": "а",
 	"b": "б",
 	"d": "д",
@@ -82,7 +84,10 @@ function latin_to_cyrillic(text) {
 	var new_text = "";
 
 	for (var i = 0; i < text.length; i++) {
-		if (i < text.length - 1 && text[i] + text[i + 1] in cyrillic) {
+		if (i < text.length - 2 && text[i] + text[i + 1] + text[i + 2] in cyrillic) {
+			new_text += cyrillic[text[i] + text[i + 1] + text[i + 2]];
+			i += 2;
+		} else if (i < text.length - 1 && text[i] + text[i + 1] in cyrillic) {
 			new_text += cyrillic[text[i] + text[i + 1]];
 			i++;
 		} else if (text[i] in cyrillic) {
