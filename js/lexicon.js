@@ -2721,7 +2721,7 @@ const entries = {
 	"verat": ["verb", "to start"],
 	"vereta": ["noun", "festival"],
 	"vernzat": ["verb", "to return"],
-	"vetso": ["noun", "face"],
+	"vetso": ["noun", "human face"],
 	"vetso-shelm": ["noun", "balaclava"],
 	"vidniy": ["adjective", "bold, prominent, sticking out, different "],
 	"vidyo": ["noun", "video"],
