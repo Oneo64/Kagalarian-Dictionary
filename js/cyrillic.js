@@ -85,19 +85,26 @@ const cyrillic_ipa = {
 
 function latin_to_cyrillic(text) {
 	var new_text = "";
+	var text2 = text.toLowerCase();
 
-	for (var i = 0; i < text.length; i++) {
-		if (i < text.length - 2 && text[i] + text[i + 1] + text[i + 2] in cyrillic) {
-			new_text += cyrillic[text[i] + text[i + 1] + text[i + 2]];
+	for (var i = 0; i < text2.length; i++) {
+		var char = "";
+
+		if (i < text2.length - 2 && text2[i] + text2[i + 1] + text2[i + 2] in cyrillic) {
+			char = cyrillic[text2[i] + text2[i + 1] + text2[i + 2]];
 			i += 2;
-		} else if (i < text.length - 1 && text[i] + text[i + 1] in cyrillic) {
-			new_text += cyrillic[text[i] + text[i + 1]];
+		} else if (i < text2.length - 1 && text2[i] + text2[i + 1] in cyrillic) {
+			char = cyrillic[text2[i] + text2[i + 1]];
 			i++;
-		} else if (text[i] in cyrillic) {
-			new_text += cyrillic[text[i]];
+		} else if (text2[i] in cyrillic) {
+			char = cyrillic[text2[i]];
 		} else {
-			new_text += " ";
+			char = " ";
 		}
+
+		if (text2[i].toUpperCase() == text[i]) char = char.toUpperCase();
+
+		new_text += char;
 	}
 
 	return new_text;
@@ -105,13 +112,14 @@ function latin_to_cyrillic(text) {
 
 function cyrillic_to_ipa(text) {
 	var new_text = "";
+	var text2 = text.toLowerCase();
 
-	for (var i = 0; i < text.length; i++) {
-		if (i < text.length - 1 && text[i] + text[i + 1] in cyrillic_ipa) {
-			new_text += cyrillic_ipa[text[i] + text[i + 1]];
+	for (var i = 0; i < text2.length; i++) {
+		if (i < text2.length - 1 && text2[i] + text2[i + 1] in cyrillic_ipa) {
+			new_text += cyrillic_ipa[text2[i] + text2[i + 1]];
 			i++;
-		} else if (text[i] in cyrillic_ipa) {
-			new_text += cyrillic_ipa[text[i]];
+		} else if (text2[i] in cyrillic_ipa) {
+			new_text += cyrillic_ipa[text2[i]];
 		} else {
 			new_text += " ";
 		}
