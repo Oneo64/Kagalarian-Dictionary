@@ -2,6 +2,7 @@ const word_type_short_form = {
 	"noun": "n.",
 	"adjective": "adj.",
 	"adverb": "adv.",
+	"adverb-preposition": "adv. & pre.",
 	"verb": "v.",
 	"conjunction": "c.",
 	"article": "a.",
